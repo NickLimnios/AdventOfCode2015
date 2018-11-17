@@ -18,7 +18,7 @@ namespace aoc_2015
         public static void Execute()
         {
             char[] chars;
-            using (StreamReader reader = new StreamReader("../../../../../_Input/aoc_2015_d1_input.txt"))
+            using (StreamReader reader = new StreamReader("input.txt"))
             {
                 chars = reader.ReadToEnd().ToCharArray();
             }
